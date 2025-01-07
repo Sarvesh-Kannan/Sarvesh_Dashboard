@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic HR Analytics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="light-theme">
+    <!-- Header Section -->
+    <header>
+   
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Introduction Section -->
+        <section class="intro">
+            <h2>Sarvesh's Strategic HR Analytics Dashboard</h2>
+            <p>
+                Analyze, visualize, and optimize workforce data with our comprehensive 3-page HR analytics dashboard. This project leverages Power BI, DAX, and advanced data modeling to explore a dataset of 1470 records, providing actionable insights into employee demographics, performance, and attrition. Dive into interactive dashboards to identify trends, predict attrition, and improve retention strategies. Additionally, engage with our integrated AI-powered bot for real-time assistance and queries, enhancing decision-making and user experience.
+            </p>
+            <a href="/dashboard" class="intro-button">Get Started</a>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Key Features</h2>
+            <div class="feature-cards">
+                <div class="card">
+                    <h3>About the Dataset</h3>
+                    <p>
+                        The dataset contains 1470 records with 35 columns, focusing on demographics, job details, and performance metrics. The primary goal is to analyze factors influencing employee attrition.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Technical Highlights</h3>
+                    <ul>
+                        <li>Data preprocessing was carried out using Python and Pandas.</li>
+                        <li>EDA (Exploratory Data Analysis) revealed key trends, which were visualized with Power BI.</li>
+                        <li>Custom DAX (Data Analysis Expressions) functions provided advanced metrics.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Importance of Preprocessing</h3>
+                    <p>
+                        Preprocessing ensures clean, consistent, and ready-for-analysis data. By handling missing values and outliers, the accuracy of insights is significantly improved.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Aspects Section -->
+        <section class="technical">
+            <h2>Technical Aspects</h2>
+            <div class="feature-cards">
+                <div class="card">
+                    <h3>DAX Functions</h3>
+                    <ul>
+                        <li><strong>CALCULATE:</strong> Used to modify filter contexts for measures.</li>
+                        <li><strong>SUMX:</strong> Iterates over a table and sums the values row by row.</li>
+                        <li><strong>IF:</strong> Implements conditional logic to create dynamic measures.</li>
+                        <li><strong>RELATED:</strong> Retrieves values from related tables.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Key Performance Indicators</h3>
+                    <p>
+                        KPIs such as Employee Satisfaction, Attrition Rate, and Training Effectiveness were calculated using DAX. These metrics provide actionable insights for workforce management.
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>Power-BI Dashboard</h2>
+            <p>View my HR Dashboard.</p>
+            <a href="/dashboard" class="cta-button">Explore Dashboard</a>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Connect with me:</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sarvesh-kannan/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Sarvesh-Kannan" target="_blank">GitHub</a>
+            <a href="https://sarveshkannan.medium.com" target="_blank">Medium</a>
+        </div>
+        <p>© 2025 Strategic HR Analytics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
