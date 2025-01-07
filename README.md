@@ -32,7 +32,6 @@ project/
 ├── templates/
 │   ├── index.html       # Landing page
 │   ├── dashboard.html   # Dashboard page
-│   ├── ai_bot.html      # AI bot interaction page
 │
 ├── static/
 │   ├── css/
