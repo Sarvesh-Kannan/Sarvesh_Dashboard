@@ -128,5 +128,3 @@ For questions or feedback, feel free to connect:
 - **Medium**: [Sarvesh Kannan](https://sarveshkannan.medium.com)
 
 --- 
-
-This README ensures your project appears professional and provides clarity to viewers. Let me know if you'd like further customization!
