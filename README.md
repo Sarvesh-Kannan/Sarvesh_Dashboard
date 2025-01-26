@@ -100,7 +100,7 @@ To run this project locally, follow these steps:
 2. **Detailed Insights Page**: Drill down into performance and satisfaction metrics.
 3. **AI Interaction Page**: Chat with the AI bot for real-time HR assistance.
 
-*Screenshots of the dashboard can be added here.*
+*Screenshots of the dashboard have been uploaded as jpgs*
 
 ---
 
